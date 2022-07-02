@@ -1,11 +1,13 @@
-
+body{
+    background-color: skyblue;
+}
 .grid-container {
     
  
    left:40%; 
  margin: 20%; 
     display: grid;
- grid-template-columns: auto auto auto auto auto auto;
+ grid-template-columns:  auto auto auto;
  transform-style: preserve-3d;
     /* gap:50px; */
     position: relative;
@@ -95,7 +97,7 @@ transform:translateZ(100px);
 
 @keyframes cube{
     from{
- transform:rotatex(0deg); }
-    to{ transform: rotateX(360deg);
+ transform:rotatex(360deg);}
+    to{ transform: rotateX(0deg);
 }
 }
